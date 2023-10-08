@@ -551,5 +551,33 @@
     "title": "Módulo 1: Generalidades e Introducción a R",
     "section": "Funciones y librerías importantes de esta sesión",
     "text": "Funciones y librerías importantes de esta sesión\nFunciones\n\n\ndata.frame nos permite crear una tabla de datos de manera manual.\nstr nos sirve para acceder a la información del tipo de datos contenidos en un objeto de R.\ninstall.packages nos permite instalar paquetes de CRAN en R.\nlibrary nos permite invocar/llamar una librería de R.\n? y help son comandos de ayuda de R.\nfactor nos permite especificar cuando una variable debe ser reconocida como factor y el orden de sus niveles.\nas.numeric, as.character y as.Date transforman valores a numéricos, caracteres y fechas.\nLas funciones mean, sd, var, median y quantile calculan la media aritmética, la desviación estándar, la varianza, la mediana y cuartiles respectivamente.\nattach convierte internamente las columnas de una tabla en objetos para su agilitar su accesibilidad.\ndettach revierte a attach.\n\n\n\nLibrerias\n\n\nmodeest funciones para estimar la moda de una distribución.\n\nmlv función para estimación de la moda de datos continuos.\n\npalmerpenguins datos correspondientes a la investigación de la Dra. Kristen Gorman acerca de pingüinos de la Antártida.\ntidycomm funciones para calcular estadísticos descriptivos.\n\ndescribe crea una tabla de estadísticos descriptivos para variables continuas.\ndescribe_cat crea una tabla de estadísticos descriptivos para variables categóricas.\n\nfdth funciones para crear tablas de frecuencias.\n\nfdt_cat crea una tabla de frecuencia para variables categóricas.\nfdt categoriza una variable continua para crear una tabla de frecuencias.\n\nflextable paquete con funciones para dar formato a tablas y exportarlas a otros tipos de documentos (.docx, .pdf)\n\nflextable principal función para dar formato a una tabla"
+  },
+  {
+    "objectID": "index.html#tipos-de-datos",
+    "href": "index.html#tipos-de-datos",
+    "title": "Módulo 1: Generalidades e Introducción a R",
+    "section": "Tipos de datos",
+    "text": "Tipos de datos\n\n\nLos tipos de datos que R es capaz de manejar son diversos. Los más comunes son:\n\nNuméricos, tanto enteros como reales (num: 1, 3.14)\nCaractéres (chr: \"a\", \"estadistica\")\nFactores (Factor: pueden ser letras o números)\nLógicos (logi: True, False o también T y F)\nFechas (Date: \"1985-10-14\")"
+  },
+  {
+    "objectID": "index.html#operadores-básicos",
+    "href": "index.html#operadores-básicos",
+    "title": "Módulo 1: Generalidades e Introducción a R",
+    "section": "Operadores básicos",
+    "text": "Operadores básicos\n\n\n\nOperación\nOperador\nEjemplo\nResultado\n\n\n\n\nSuma\n+\n10 + 2\n12\n\n\nResta\n-\n6 - 3\n3\n\n\nMultiplicación\n*\n4 * 4\n16\n\n\nDivisión\n/\n12 / 3\n4\n\n\nPotencia\n^\n5 ^ 2\n25\n\n\n\n\nExisten otros operadores, como el de “cascada” (pipeline operator) %&gt;%, que usaremos más adelante"
+  },
+  {
+    "objectID": "index.html#operadores-booleanos-de-comparación",
+    "href": "index.html#operadores-booleanos-de-comparación",
+    "title": "Módulo 1: Generalidades e Introducción a R",
+    "section": "Operadores Booleanos de comparación",
+    "text": "Operadores Booleanos de comparación\n\n\n\nOperación\nOperador\nEjemplo\nResultado\n\n\n\n\nMayor que\n&gt;\n5 &gt; 1\nT\n\n\nMenor que\n&lt;\n12 &lt; 11\nF\n\n\nIgual que\n==\n33 == 33\nT\n\n\nNo igual que\n!=\n10 != 10\nF\n\n\nMayor o igual que\n&gt;=\n5 &gt;= 5\nT\n\n\nMenor o igual que\n&lt;=\n4 &lt;= 2\nF"
+  },
+  {
+    "objectID": "index.html#operadores-booleanos-lógicos",
+    "href": "index.html#operadores-booleanos-lógicos",
+    "title": "Módulo 1: Generalidades e Introducción a R",
+    "section": "Operadores Booleanos lógicos",
+    "text": "Operadores Booleanos lógicos\n\n\n\nOperación\nOperador\nEjemplo\nResultado\n\n\n\n\nNo\n!\n!(1==1)\nF\n\n\nO\n|\n(1==1) | (2==3)\nT\n\n\nY\n&\n(1==1) | (2==3)\nF"
   }
 ]

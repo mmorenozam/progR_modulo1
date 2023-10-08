@@ -375,7 +375,7 @@ una variable <- 2
 
 -   Por tanto, es aconsejable el evitar asignar nombres a nuestros objetos que puedan entrar en conflicto con otras funciones u objetos de R.
 
-## Tipos de datos en R
+## Tipos de datos
 
 ::: incremental
 -   Los tipos de datos que R es capaz de manejar son diversos. Los más comunes son:
@@ -391,7 +391,7 @@ una variable <- 2
     -   Fechas (`Date`: `"1985-10-14"`)
 :::
 
-## Operadores básicos en R
+## Operadores básicos
 
 | Operación      | Operador | Ejemplo  | Resultado |
 |----------------|:--------:|:--------:|:---------:|
@@ -403,7 +403,7 @@ una variable <- 2
 
 -   Existen otros operadores, como el de "cascada" (*pipeline operator*) `%>%`, que usaremos más adelante
 
-## Operadores Booleanos de comparación en R
+## Operadores Booleanos de comparación
 
 | Operación         | Operador |  Ejemplo   | Resultado |
 |-------------------|:--------:|:----------:|:---------:|
@@ -414,7 +414,16 @@ una variable <- 2
 | Mayor o igual que |   `>=`   |  `5 >= 5`  |    `T`    |
 | Menor o igual que |   `<=`   |  `4 <= 2`  |    `F`    |
 
--   Existen también los operadores Booleanos lógicos (comparación del resultado entre dos comparaciones), pero no entraremos en detalle de estos.
+
+## Operadores Booleanos lógicos
+
+| Operación         | Operador |  Ejemplo   | Resultado |
+|-------------------|:--------:|:----------:|:---------:|
+| No         |   `!`    |  `!(1==1)`   |    `F`    |
+| O         |   `|`    | `(1==1) | (2==3)`  |    `T`    |
+| Y         |   `&`   | `(1==1) | (2==3)` |    `F`    |
+
+
 
 ## Tipos de objetos en R
 
