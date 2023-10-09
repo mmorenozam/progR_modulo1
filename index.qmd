@@ -735,7 +735,7 @@ help(package = "ggplot2")
 
     -   [towards data science](https://towardsdatascience.com/){target="_blank"}
 
-    -   [STHDA](http://www.sthda.com/){target="_blank"}
+    -   [STHDA](http://www.sthda.com/english/){target="_blank"}
 
     -   Google
 :::
