@@ -298,21 +298,21 @@
     "href": "index.html#autoevaluación-1",
     "title": "Módulo 1: Generalidades e Introducción a R",
     "section": "Autoevaluación # 1",
-    "text": "Autoevaluación # 1\n\n\n\n\n\n\n\nLos creadores de R, fueron Gentleman e Ihaka de la universidad de Auckland\nV / F\n\n\n5 * 5 * 5 es equivalente a 5 ^ 3\nV / F\n\n\nUna lista es un arreglo que admite datos de una sola clase únicamente\nV / F\n\n\nQueremos comparar si x es igual a 5, es esto correcto:x = 5\nV / F\n\n\nLa función data.frame nos permite crear manualmente tablas de datos\nV / F"
+    "text": "Autoevaluación # 1\n\n\n\n\n\n\n\n\nLos creadores de R, fueron Gentleman e Ihaka de la universidad de Auckland\n\nV / F\n\n\n\n5 * 5 * 5 es equivalente a 5 ^ 3\n\nV / F\n\n\n\nUna lista es un arreglo que admite datos de una sola clase únicamente\n\nV / F\n\n\n\nQueremos comparar si x es igual a 5, es esto correcto:x = 5\n\nV / F\n\n\n\nLa función data.frame nos permite crear manualmente tablas de datos\n\nV / F"
   },
   {
     "objectID": "index.html#autoevaluación-1-1",
     "href": "index.html#autoevaluación-1-1",
     "title": "Módulo 1: Generalidades e Introducción a R",
     "section": "Autoevaluación # 1",
-    "text": "Autoevaluación # 1\n\n\n\n\n\n\n\nAl crear un objeto de esta forma: 1_cuenta = 12 R lo crea sin error alguno\nV / F\n\n\nSi dejo un espacio en el nombre de un objeto, R me devuelve un error\nV / F\n\n\nEl comando install.libraries me permite instalar librerías\nV / F\n\n\nEn la expresión genérica mean(x, . . .) los puntos representan argumentos\nV / F\n\n\nEs la siguiente expresión correcta: z -&gt; c(1, 2, 3)\nV / F"
+    "text": "Autoevaluación # 1\n\n\n\n\n\n\n\n\nAl crear un objeto de esta forma: 1_cuenta = 12 R lo crea sin error alguno\n\nV / F\n\n\n\nSi dejo un espacio en el nombre de un objeto, R me devuelve un error\n\nV / F\n\n\n\nEl comando install.libraries me permite instalar librerías\n\nV / F\n\n\n\nEn la expresión genérica mean(x, . . .) los puntos representan argumentos\n\nV / F\n\n\n\nEs la siguiente expresión correcta: z -&gt; c(1, 2, 3)\n\nV / F"
   },
   {
     "objectID": "index.html#autoevaluación-1-2",
     "href": "index.html#autoevaluación-1-2",
     "title": "Módulo 1: Generalidades e Introducción a R",
     "section": "Autoevaluación # 1",
-    "text": "Autoevaluación # 1\nEn tu computador, ejecuta en el prompt la siguiente línea de código:\n?sd.\n\n\n\n\n\n\n\nx es un argumento de la función\nV / F\n\n\nna.rm es otro argumento de la función\nV / F\n\n\nna.rm le dice a la función sd que NO remueva observaciones perdidas\nV / F\n\n\nsd es la función de la librería base que calcula la desviación estándar\nV / F"
+    "text": "Autoevaluación # 1\nEn tu computador, ejecuta en el prompt la siguiente línea de código:\n?sd.\n\n\n\n\n\n\n\n\nx es un argumento de la función\n\nV / F\n\n\n\nna.rm es otro argumento de la función\n\nV / F\n\n\n\nna.rm le dice a la función sd que NO remueva observaciones perdidas\n\nV / F\n\n\n\nsd es la función de la librería base que calcula la desviación estándar\n\nV / F"
   },
   {
     "objectID": "index.html#introducción",
@@ -452,14 +452,14 @@
     "href": "index.html#autoevaluación-3",
     "title": "Módulo 1: Generalidades e Introducción a R",
     "section": "Autoevaluación # 3",
-    "text": "Autoevaluación # 3\n\n\n\n\n\n\n\nEl coeficiente de variación es adimensional\nV / F\n\n\nLa media poblacional se aproxima a la media muestral con una corrección\nV / F\n\n\nLa desv. est. muestral es un estimador de la poblacional después de una corrección\nV / F\n\n\nLa moda es igual al valor medio de una distribución\nV / F\n\n\nEl primer cuartil corresponde al 50% de probabilidad de una distribución\nV / F"
+    "text": "Autoevaluación # 3\n\n\n\n\n\n\n\n\nEl coeficiente de variación es adimensional\n\nV / F\n\n\n\nLa media poblacional se aproxima a la media muestral con una corrección\n\nV / F\n\n\n\nLa desv. est. muestral es un estimador de la poblacional después de una corrección\n\nV / F\n\n\n\nLa moda es igual al valor medio de una distribución\n\nV / F\n\n\n\nEl primer cuartil corresponde al 50% de probabilidad de una distribución\n\nV / F"
   },
   {
     "objectID": "index.html#autoevaluación-3-1",
     "href": "index.html#autoevaluación-3-1",
     "title": "Módulo 1: Generalidades e Introducción a R",
     "section": "Autoevaluación # 3",
-    "text": "Autoevaluación # 3\nUsando la variable disp de mtcars:\n\n\n\n\n\n\n\nLa media aritmética es igual a\na) 220.9\nb) 139.0\nc) 230.7\nd) 401.2\n\n\nLa desviación estándar es igual a\na) 33.1\nb) 123.9\nc) 120.2\nd) 210.7\n\n\nLa varianza es igual a\na) 1095.6\nb) 15360.8\nc) 14448.0\nd) 44394.5\n\n\nEl tercer cuartil es\na) 71.1\nb) 120.8\nc) 196.3\nd) 326.0\n\n\nEl coeficiente de variación es\na) 0.45\nb) 0.15\nc) 0.54\nd) 0.82"
+    "text": "Autoevaluación # 3\nUsando la variable disp de mtcars:\n\n\n\n\n\n\n\n\nLa media aritmética es igual a\n\na) 220.9\nb) 139.0\nc) 230.7\nd) 401.2\n\n\n\nLa desviación estándar es igual a\n\na) 33.1\nb) 123.9\nc) 120.2\nd) 210.7\n\n\n\nLa varianza es igual a\n\na) 1095.6\nb) 15360.8\nc) 14448.0\nd) 44394.5\n\n\n\nEl tercer cuartil es\n\na) 71.1\nb) 120.8\nc) 196.3\nd) 326.0\n\n\n\nEl coeficiente de variación es\n\na) 0.45\nb) 0.15\nc) 0.54\nd) 0.82"
   },
   {
     "objectID": "index.html#estadísticos-descriptivos-y-tablas-de-frecuencia",

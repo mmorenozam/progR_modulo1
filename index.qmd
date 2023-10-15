@@ -141,13 +141,11 @@ editor: visual
     -   Generación de reportes, páginas web, presentaciones y libros en distintos formatos (rmarkdown, blogdown, quarto).
 
     -   Construcción de aplicaciones interactivas para visualización/análisis de datos (rshiny).
-    
+
 -   A continuación, algunos ejemplos de la versatilidad de R.
 :::
 :::
 :::
-
-
 
 ## Gráficos listos para publicación
 
@@ -170,16 +168,15 @@ Moreno-Zambrano, *et al.* (2018) *No publicado*
 ![](images/netw_p.jpg){fig-align="center"}
 
 ::: footer
-[Gráfica propia, @psignificant](https://twitter.com/psignificant/status/1083538655648628737){target="_blank"}
+[Gráfica propia, \@psignificant](https://twitter.com/psignificant/status/1083538655648628737){target="_blank"}
 :::
-
 
 ## Animaciones
 
 ![](images/a_1.png){fig-align="center"}
 
 ::: footer
-[Gráfica para, @BIOscience_N](https://twitter.com/BIOscience_N/status/1100381831663370240){target="_blank"}
+[Gráfica para, \@BIOscience_N](https://twitter.com/BIOscience_N/status/1100381831663370240){target="_blank"}
 :::
 
 ## Animaciones {visibility="uncounted"}
@@ -414,16 +411,13 @@ una variable <- 2
 | Mayor o igual que |   `>=`   |  `5 >= 5`  |    `T`    |
 | Menor o igual que |   `<=`   |  `4 <= 2`  |    `F`    |
 
-
 ## Operadores Booleanos lógicos
 
-| Operación         | Operador |  Ejemplo   | Resultado |
-|-------------------|:--------:|:----------:|:---------:|
-| No         |   `!`    |  `!(1==1)`   |    `F`    |
-| O         |   `|`    | `(1==1) | (2==3)`  |    `T`    |
-| Y         |   `&`   | `(1==1) | (2==3)` |    `F`    |
-
-
+| Operación | Operador |      Ejemplo      | Resultado |
+|-----------|:--------:|:-----------------:|:---------:|
+| No        |   `!`    |     `!(1==1)`     |    `F`    |
+| O         |   `|`    | `(1==1) | (2==3)` |    `T`    |
+| Y         |   `&`    | `(1==1) | (2==3)` |    `F`    |
 
 ## Tipos de objetos en R
 
@@ -740,49 +734,49 @@ help(package = "ggplot2")
     -   Google
 :::
 
-## Autoevaluación \# 1
+## Autoevaluación \# 1 {.smaller}
 
-+----------------------------------------------------------------------------+--------------+
-| Los creadores de R, fueron Gentleman e Ihaka de la universidad de Auckland | V / F        |
-+----------------------------------------------------------------------------+--------------+
-| `5 * 5 * 5` es equivalente a `5 ^ 3`                                       | V / F        |
-+----------------------------------------------------------------------------+--------------+
-| Una lista es un arreglo que admite datos de una sola clase únicamente      | V / F        |
-+----------------------------------------------------------------------------+--------------+
-| Queremos comparar si `x` es igual a `5`, es esto correcto:`x = 5`          | V / F        |
-+----------------------------------------------------------------------------+--------------+
-| La función `data.frame` nos permite crear manualmente tablas de datos      | V / F        |
-+----------------------------------------------------------------------------+--------------+
++--------------------------------------------------------------------------------+-------------+
+| 1.  Los creadores de R, fueron Gentleman e Ihaka de la universidad de Auckland | V / F       |
++--------------------------------------------------------------------------------+-------------+
+| 2.  `5 * 5 * 5` es equivalente a `5 ^ 3`                                       | V / F       |
++--------------------------------------------------------------------------------+-------------+
+| 3.  Una lista es un arreglo que admite datos de una sola clase únicamente      | V / F       |
++--------------------------------------------------------------------------------+-------------+
+| 4.  Queremos comparar si `x` es igual a `5`, es esto correcto:`x = 5`          | V / F       |
++--------------------------------------------------------------------------------+-------------+
+| 5.  La función `data.frame` nos permite crear manualmente tablas de datos      | V / F       |
++--------------------------------------------------------------------------------+-------------+
 
-## Autoevaluación \# 1 {visibility="uncounted"}
+## Autoevaluación \# 1 {visibility="uncounted" .smaller}
 
-+------------------------------------------------------------------------------+-------------+
-| Al crear un objeto de esta forma: `1_cuenta = 12` R lo crea sin error alguno | V / F       |
-+------------------------------------------------------------------------------+-------------+
-| Si dejo un espacio en el nombre de un objeto, R me devuelve un error         | V / F       |
-+------------------------------------------------------------------------------+-------------+
-| El comando `install.libraries` me permite instalar librerías                 | V / F       |
-+------------------------------------------------------------------------------+-------------+
-| En la expresión genérica `mean(x, . . .)` los puntos representan argumentos  | V / F       |
-+------------------------------------------------------------------------------+-------------+
-| Es la siguiente expresión correcta: `z -> c(1, 2, 3)`                        | V / F       |
-+------------------------------------------------------------------------------+-------------+
++----------------------------------------------------------------------------------+-------------+
+| 6.  Al crear un objeto de esta forma: `1_cuenta = 12` R lo crea sin error alguno | V / F       |
++----------------------------------------------------------------------------------+-------------+
+| 7.  Si dejo un espacio en el nombre de un objeto, R me devuelve un error         | V / F       |
++----------------------------------------------------------------------------------+-------------+
+| 8.  El comando `install.libraries` me permite instalar librerías                 | V / F       |
++----------------------------------------------------------------------------------+-------------+
+| 9.  En la expresión genérica `mean(x, . . .)` los puntos representan argumentos  | V / F       |
++----------------------------------------------------------------------------------+-------------+
+| 10. Es la siguiente expresión correcta: `z -> c(1, 2, 3)`                        | V / F       |
++----------------------------------------------------------------------------------+-------------+
 
-## Autoevaluación \# 1 {visibility="uncounted"}
+## Autoevaluación \# 1 {visibility="uncounted" .smaller}
 
 En tu computador, ejecuta en el prompt la siguiente línea de código:
 
 `?sd`.
 
-+-----------------------------------------------------------------------------+--------------+
-| `x` es un argumento de la función                                           | V / F        |
-+-----------------------------------------------------------------------------+--------------+
-| `na.rm` es otro argumento de la función                                     | V / F        |
-+-----------------------------------------------------------------------------+--------------+
-| `na.rm` le dice a la función `sd` que **NO** remueva observaciones perdidas | V / F        |
-+-----------------------------------------------------------------------------+--------------+
-| `sd` es la función de la librería `base` que calcula la desviación estándar | V / F        |
-+-----------------------------------------------------------------------------+--------------+
++---------------------------------------------------------------------------------+-------------+
+| 11. `x` es un argumento de la función                                           | V / F       |
++---------------------------------------------------------------------------------+-------------+
+| 12. `na.rm` es otro argumento de la función                                     | V / F       |
++---------------------------------------------------------------------------------+-------------+
+| 13. `na.rm` le dice a la función `sd` que **NO** remueva observaciones perdidas | V / F       |
++---------------------------------------------------------------------------------+-------------+
+| 14. `sd` es la función de la librería `base` que calcula la desviación estándar | V / F       |
++---------------------------------------------------------------------------------+-------------+
 
 # Operaciones básicas en R
 
@@ -1242,65 +1236,65 @@ mlv(mtcars$mpg, method = "hsm")
 sd(mtcars$mpg)/mean(mtcars$mpg)
 ```
 
-## Autoevaluación \# 3
+## Autoevaluación \# 3 {.smaller}
 
-+------------------------------------------------------------------------------------+-------------+
-| El coeficiente de variación es adimensional                                        | V / F       |
-+------------------------------------------------------------------------------------+-------------+
-| La media poblacional se aproxima a la media muestral con una corrección            | V / F       |
-+------------------------------------------------------------------------------------+-------------+
-| La desv. est. muestral es un estimador de la poblacional después de una corrección | V / F       |
-+------------------------------------------------------------------------------------+-------------+
-| La moda es igual al valor medio de una distribución                                | V / F       |
-+------------------------------------------------------------------------------------+-------------+
-| El primer cuartil corresponde al 50% de probabilidad de una distribución           | V / F       |
-+------------------------------------------------------------------------------------+-------------+
++----------------------------------------------------------------------------------------+-------------+
+| 1.  El coeficiente de variación es adimensional                                        | V / F       |
++----------------------------------------------------------------------------------------+-------------+
+| 2.  La media poblacional se aproxima a la media muestral con una corrección            | V / F       |
++----------------------------------------------------------------------------------------+-------------+
+| 3.  La desv. est. muestral es un estimador de la poblacional después de una corrección | V / F       |
++----------------------------------------------------------------------------------------+-------------+
+| 4.  La moda es igual al valor medio de una distribución                                | V / F       |
++----------------------------------------------------------------------------------------+-------------+
+| 5.  El primer cuartil corresponde al 50% de probabilidad de una distribución           | V / F       |
++----------------------------------------------------------------------------------------+-------------+
 
-## Autoevaluación \# 3 {.scrollable visibility="uncounted"}
+## Autoevaluación \# 3 {.scrollable visibility="uncounted" .smaller}
 
 Usando la variable `disp` de `mtcars`:
 
-+----------------------------------------------------+---------------+
-| La media aritmética es igual a                     | a\) 220.9     |
-|                                                    |               |
-|                                                    | b\) 139.0     |
-|                                                    |               |
-|                                                    | c\) 230.7     |
-|                                                    |               |
-|                                                    | d\) 401.2     |
-+----------------------------------------------------+---------------+
-| La desviación estándar es igual a                  | a\) 33.1      |
-|                                                    |               |
-|                                                    | b\) 123.9     |
-|                                                    |               |
-|                                                    | c\) 120.2     |
-|                                                    |               |
-|                                                    | d\) 210.7     |
-+----------------------------------------------------+---------------+
-| La varianza es igual a                             | a\) 1095.6    |
-|                                                    |               |
-|                                                    | b\) 15360.8   |
-|                                                    |               |
-|                                                    | c\) 14448.0   |
-|                                                    |               |
-|                                                    | d\) 44394.5   |
-+----------------------------------------------------+---------------+
-| El tercer cuartil es                               | a\) 71.1      |
-|                                                    |               |
-|                                                    | b\) 120.8     |
-|                                                    |               |
-|                                                    | c\) 196.3     |
-|                                                    |               |
-|                                                    | d\) 326.0     |
-+----------------------------------------------------+---------------+
-| El coeficiente de variación es                     | a\) 0.45      |
-|                                                    |               |
-|                                                    | b\) 0.15      |
-|                                                    |               |
-|                                                    | c\) 0.54      |
-|                                                    |               |
-|                                                    | d\) 0.82      |
-+----------------------------------------------------+---------------+
++--------------------------------------------------+---------------+
+| 6.  La media aritmética es igual a               | a\) 220.9     |
+|                                                  |               |
+|                                                  | b\) 139.0     |
+|                                                  |               |
+|                                                  | c\) 230.7     |
+|                                                  |               |
+|                                                  | d\) 401.2     |
++--------------------------------------------------+---------------+
+| 7.  La desviación estándar es igual a            | a\) 33.1      |
+|                                                  |               |
+|                                                  | b\) 123.9     |
+|                                                  |               |
+|                                                  | c\) 120.2     |
+|                                                  |               |
+|                                                  | d\) 210.7     |
++--------------------------------------------------+---------------+
+| 8.  La varianza es igual a                       | a\) 1095.6    |
+|                                                  |               |
+|                                                  | b\) 15360.8   |
+|                                                  |               |
+|                                                  | c\) 14448.0   |
+|                                                  |               |
+|                                                  | d\) 44394.5   |
++--------------------------------------------------+---------------+
+| 9.  El tercer cuartil es                         | a\) 71.1      |
+|                                                  |               |
+|                                                  | b\) 120.8     |
+|                                                  |               |
+|                                                  | c\) 196.3     |
+|                                                  |               |
+|                                                  | d\) 326.0     |
++--------------------------------------------------+---------------+
+| 10. El coeficiente de variación es               | a\) 0.45      |
+|                                                  |               |
+|                                                  | b\) 0.15      |
+|                                                  |               |
+|                                                  | c\) 0.54      |
+|                                                  |               |
+|                                                  | d\) 0.82      |
++--------------------------------------------------+---------------+
 
 ## Estadísticos descriptivos y tablas de frecuencia
 
@@ -1484,23 +1478,23 @@ detach(penguins) # IMPORTANTISIMO!
 
 ![](images/tabla_word.png){fig-align="center"}
 
-## Autoevaluación \# 4
+## Autoevaluación \# 4 {.smaller}
 
 Carga los datos de base `iris` y aparea los siguientes literales
 
-+-------------------------------------------------------+--------------+
-| a\) Media aritmética de `Sepal.Length`                | a\) 66.67%   |
-|                                                       |              |
-| b\) Número total de observaciones                     | b\) 600      |
-|                                                       |              |
-| c\) Desv. Est. de `Petal.Width`                       | c\) 0.33     |
-|                                                       |              |
-| d\) Valor mínimo de `Sepal.Width`                     | d\) 5.84     |
-|                                                       |              |
-| e\) Frecuencia relativa de la especie `setosa`        | e\) 2        |
-|                                                       |              |
-| f\) Frecuencia acumulada hasta especie `versicolor`   | f\) 0.762    |
-+-------------------------------------------------------+--------------+
++-----------------------------------------------------+---------------+
+| a\) Media aritmética de `Sepal.Length`              | a\) 66.67%    |
+|                                                     |               |
+| b\) Número total de observaciones                   | b\) 600       |
+|                                                     |               |
+| c\) Desv. Est. de `Petal.Width`                     | c\) 0.33      |
+|                                                     |               |
+| d\) Valor mínimo de `Sepal.Width`                   | d\) 5.84      |
+|                                                     |               |
+| e\) Frecuencia relativa de la especie `setosa`      | e\) 2         |
+|                                                     |               |
+| f\) Frecuencia acumulada hasta especie `versicolor` | f\) 0.762     |
++-----------------------------------------------------+---------------+
 
 # Antes de terminar este módulo...
 
