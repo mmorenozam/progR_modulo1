@@ -1485,7 +1485,7 @@ Carga los datos de base `iris` y aparea los siguientes literales
 +-----------------------------------------------------+---------------+
 | a\) Media aritmética de `Sepal.Length`              | a\) 66.67%    |
 |                                                     |               |
-| b\) Número total de observaciones                   | b\) 600       |
+| b\) Número total de observaciones                   | b\) 150       |
 |                                                     |               |
 | c\) Desv. Est. de `Petal.Width`                     | c\) 0.33      |
 |                                                     |               |

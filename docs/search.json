@@ -543,7 +543,7 @@
     "href": "index.html#autoevaluación-4",
     "title": "Módulo 1: Generalidades e Introducción a R",
     "section": "Autoevaluación # 4",
-    "text": "Autoevaluación # 4\nCarga los datos de base iris y aparea los siguientes literales\n\n\n\n\n\n\n\na) Media aritmética de Sepal.Length\nb) Número total de observaciones\nc) Desv. Est. de Petal.Width\nd) Valor mínimo de Sepal.Width\ne) Frecuencia relativa de la especie setosa\nf) Frecuencia acumulada hasta especie versicolor\na) 66.67%\nb) 600\nc) 0.33\nd) 5.84\ne) 2\nf) 0.762"
+    "text": "Autoevaluación # 4\nCarga los datos de base iris y aparea los siguientes literales\n\n\n\n\n\n\n\na) Media aritmética de Sepal.Length\nb) Número total de observaciones\nc) Desv. Est. de Petal.Width\nd) Valor mínimo de Sepal.Width\ne) Frecuencia relativa de la especie setosa\nf) Frecuencia acumulada hasta especie versicolor\na) 66.67%\nb) 150\nc) 0.33\nd) 5.84\ne) 2\nf) 0.762"
   },
   {
     "objectID": "index.html#funciones-y-librerías-importantes-de-esta-sesión",
